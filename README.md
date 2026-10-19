@@ -62,3 +62,9 @@ python3 src/common.py "  Hello   team!  "
 | [제출물 인덱스](SUBMISSION.md) | 실제 기여·증빙 링크 모음 |
 
 GitHub 협업 연습에서 브랜치, 코드 리뷰, PR 생성과 병합을 연습합니다. From.Heoney
+
+## 공통 함수 설명: `normalize_spaces()`
+
+`normalize_spaces(text)`는 입력 문자열의 앞뒤 공백을 제거하고, 문자열 내부의 연속된 공백을 하나로 정리하는 공통 유틸 함수입니다.
+
+각 팀원의 함수는 이 공통 함수를 호출한 결과를 사용하여 대문자 변환, 소문자 변환, 글자 수 계산, 단어 수 계산을 수행합니다.
